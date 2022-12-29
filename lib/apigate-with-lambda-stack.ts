@@ -12,8 +12,8 @@ export class ApigateWithLambdaStack extends cdk.Stack {
     super(scope, id, props);
 
     // Create an API Gateway resource for each of the CRUD operations
-    const api = new RestApi(this, 'uploads', {
-      restApiName: 'File upload'
+    const api = new RestApi(this, 'Item Api', {
+      restApiName: 'Item Api'
     });
 
     const accessLambda = new NodejsFunction(this, 'PostFunction', {
