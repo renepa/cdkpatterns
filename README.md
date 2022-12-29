@@ -1,6 +1,7 @@
 # Welcome to your CDK TypeScript project
 
-This is a blank project for CDK development with TypeScript.
+This is a simple cdk patten with API-Gate with synchronous call of lambda
+![API-Gateway with Lambda-Integration](images/ApiGatewayLambdaIntegration.png)
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
