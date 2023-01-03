@@ -17,7 +17,7 @@ export class ApigateWithLambdaStack extends cdk.Stack {
     });
 
     const accessLambda = new NodejsFunction(this, 'PostFunction', {
-      functionName: "FileUploadAccessLambda",
+      functionName: "AccessLambda_ApiGateLambda",
       runtime: Runtime.NODEJS_16_X,
       // name of the exported function
       handler: 'handler',
