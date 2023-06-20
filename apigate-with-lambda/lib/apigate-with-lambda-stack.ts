@@ -39,7 +39,6 @@ export class ApigateWithLambdaStack extends cdk.Stack {
     addCorsOptions(items);
   }
 }
-
 export function addCorsOptions(apiResource: IResource) {
   apiResource.addMethod('OPTIONS', new MockIntegration({
     integrationResponses: [{
