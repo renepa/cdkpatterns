@@ -1,15 +1,15 @@
 # Welcome to your CDK TypeScript project
 
-This is a simple cdk patten with API-Gate with synchronous call of lambda
+This is a simple apigateWithStepfunction patten with API-Gate with synchronous call of lambda
 ![API-Gateway with Lambda-Integration](images/ApiGatewayLambdaIntegration.png)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The `apigateWithStepfunction.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
 * `npm run build`   compile typescript to js
 * `npm run watch`   watch for changes and compile
 * `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* `apigateWithStepfunction deploy`      deploy this stack to your default AWS account/region
+* `apigateWithStepfunction diff`        compare deployed stack with current state
+* `apigateWithStepfunction synth`       emits the synthesized CloudFormation template
